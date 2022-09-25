@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(232, 219, 204);
+}
+
+.profile-pic {
+    width: 23%; 
+    height: 500px;
+    border-radius: 15%;
+    border: 1px solid black;
+    margin: 0 0 0 20px;
+}
+
+.centered-text {
+    text-align: center;
+}
+
+.profile-and-hobby {
+    display: flex;
+    gap: 30px;
+}
+
+.hobbies {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.table-education, th, td, caption {
+    border: 2px solid black;
+    border-collapse: separate;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer:hover {
+    background-color: rgb(226, 200, 171);
+    transition: 0.5s;
+}
+
+a {
+    color: rgb(13, 13, 184)
+}
+
+a:hover {
+box-shadow: 5px 5px 0px 0px #289FED, 10px 10px 0px 0px #5FB8FF, 15px 15px 0px 0px #A1D8FF, 20px 20px 0px 0px #CAE6FF, 25px 25px 0px 0px #E1EEFF, 5px 5px 10px 5px rgba(116,242,255,0);
+}
